@@ -1,0 +1,19 @@
+Instalar o chocolatey, um software gerenciador de pacote com ampla gama de
+aplicativos/softwars em seu repositório
+
+Site: https://chocolatey.org/install
+
+Copiar o código gigante e instalar no seu windows powershell, 
+executando como administrador
+
+Para conferir se instalou, mande no powershell o comando: choco
+
+instalar o node.js no powershell (Escolha a opção A): choco install nodejs-lts
+Para conferir se instalou, mande no powershell o comando: node
+
+Yarn é a primeira ferramenta que o React precisa
+instalar o yarn no powershell: npm install yarn -g
+Para conferir se instalou, mande no powershell o comando: npx yarn --help
+
+Plugins do VS Code necessários: https://i.imgur.com/3nASt9l.png
+

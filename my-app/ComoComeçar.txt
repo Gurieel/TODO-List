@@ -1,0 +1,3 @@
+Criar o CSS Global em index.css
+
+Ir ao App.js e fazer alguns ajustes

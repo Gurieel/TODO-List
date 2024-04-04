@@ -1,0 +1,68 @@
+Site: create-react-app.dev/docs/getting-started
+
+Utilizar os comandos abaixo no terminal powershell como administrador
+npx create-react-app nomeDoProjeto // Não colocar espaço no nome do projeto e sem letras maiusculas
+cd nomeDoProjeto
+npm start
+
+Após os comandos os arquivos serão gerados
+
+OBS: Sempre que tiver algum arquivo chamado index.js
+Este arquivo para o JS será o primeiro arquivo executado
+
+Apagar template padrão dentro da função App em App.js
+Apagar todo template padrão em App.css
+Trocar o favicon.ico
+Deletar logo.svg
+Adicionar .estlintcache no fim de .gitignore
+
+OBS: index.css é a configuração global do site, as padrões
+manifest.json é para criar atalhos na área de trabalho no celular
+
+Ajustes no index.html:
+  lang="pt-BR"
+  Remover <meta name="description"
+          content="Web site created using create-react-app"/>
+  Ajustar cor do tema
+  Trocar title
+
+Ajustes no manifest.json:
+  short_name: Minha Aplicação
+  name: Aplicação do curso
+  theme_color: para a cor que deseja
+
+Ao configurar tudo, abra um novo terminal e escreva:
+npm start
+
+Instalar dependencias para o package.json
+--save-dev é para salvar a dependencia no package.json
+
+O que é eslint, é um software que corrige problemas, melhora a prática de códigos
+O guardião das boas práticas do seu código
+Inslalar os plugins do eslint, como o React para ele entender as regras
+e boas praticas do React
+npm i eslint eslint-config-airbnb eslint-config-prettier eslint-plugin-prettier eslint-plugin-react eslint-plugin-react-hooks eslint-plugin-testing-library prettier --save-dev
+npm i eslint-plugin-jsx-a11y --save-dev
+npm install babel-eslint@8 --save-dev
+
+npm i eslint@latest --save-dev
+npm install babel-eslint@8 --save-dev
+npm install @babel/plugin-proposal-private-property-in-object
+npm install eslint-plugin-babel@latest --save-dev
+npm install eslint-plugin-jsx@latest --save-dev
+npm install @babel/preset-react --save-dev
+
+Criar o arquivo .eslintrc.js na pasta do projeto
+Criar configuração padrão (Exatamente o que está escrito lá)
+
+Depois de configurar o .eslintrc.js
+É bom digitar o comando do eslint com o fix para ajustar qualquer coisa
+que pode estar errado na aplicação
+Comando: npx eslint --fix .\src\App.js (Escolher onde quer que ele verifique)
+
+Ao instalar o prettier, é preciso criar o arquivo de configuração
+chamado: .prettierrc
+Criar configuração padrão (Exatamente o que está escrito lá)
+
+Utilize o comando: npx prettier --write .
+Para fazer os ajustes em todos os arquivos
